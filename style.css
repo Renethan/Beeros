@@ -6,6 +6,7 @@ header{
     font-size: 110%;
     justify-content: space-between;
     align-items: center;
+    border-bottom-style: solid;
 }
 
 section{
@@ -43,7 +44,7 @@ section logo-titre{
     justify-content: left;
 }
 
-.apropos{
+.apropos-text{
     background-color:#d9d9d988;
 }
 
@@ -66,5 +67,15 @@ body.Accueil{
     background-image: url(biere-legere-fraiche-du-barman.jpg);
     background-size: cover;
     background-position: 50% 0%;
+    margin : 0px;
+}
+
+body.produits{
+    background-color: #e6e9de;
+    margin : 0px;
+}
+
+body.apropos{
+    background-color: #e6e9de;
     margin : 0px;
 }
