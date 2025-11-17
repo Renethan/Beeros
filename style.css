@@ -43,6 +43,9 @@ section logo-titre{
     justify-content: left;
 }
 
+.apropos{
+    background-color:#d9d9d988;
+}
 
 ul.titre {
   list-style-type: none;
