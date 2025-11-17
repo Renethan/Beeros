@@ -1,19 +1,11 @@
 header{
+    display: flex;
     background-color: rgb(255, 191, 0);
     font-family:'Gill Sans', 'Gill Sans MT', Jacques, 'Trebuchet MS', sans-serif;
     color: black;
-    font-size: 40px;
-}
-
-nav{
-    display: flex;
-   justify-content: flex-end;
-   align-items: flex-end;
-}
-
-.BEEROS{
-    display: flex;
-    align-self: flex-start;
+    font-size: 110%;
+    justify-content: space-between;
+    align-items: center;
 }
 
 section{
@@ -44,4 +36,20 @@ section.black{
 
 section h2{
     padding-left: 20px;
+}
+
+
+ul.titre {
+  list-style-type: none;
+  display: flex;
+  gap: 15%;
+  margin-top: 12%;
+  margin-right: 15%;
+  margin-bottom: 12%;
+  justify-content: flex-end;
+}
+
+h1{
+    font-size: 200%;
+    padding-left: 4%;
 }
