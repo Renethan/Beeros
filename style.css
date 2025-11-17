@@ -1,0 +1,10 @@
+header{
+    background-color: rgb(255, 191, 0);
+    font-family:'Gill Sans', 'Gill Sans MT', Jacques, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-size: 40px;
+}
+nav{
+    display: flex;
+   justify-content: ;
+}
