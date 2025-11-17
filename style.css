@@ -20,8 +20,8 @@ section{
     border: 2px;
     border-style: solid;
     border-color: black;
-    max-width: 800px;
-    max-height: 271px;
+    max-width: 600px;
+    max-height: 270px;
     margin: 30px;
 }
 
@@ -31,4 +31,17 @@ section.blonde{
 
 section.brune{
     background-color: #ff6337;
+}
+
+section.ambree{
+    background-color: #ffa02d;
+}
+
+section.black{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+section h2{
+    padding-left: 20px;
 }
