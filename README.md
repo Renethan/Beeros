@@ -9,5 +9,8 @@
 </head>
 <body>
     <a href="Accueil.html">Accueil</a>
+    <a href="apropos.html">Accueil</a>
+    <a href="produits.html">Accueil</a>
+    <a href="Start">Accueil</a>
 </body>
 
