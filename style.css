@@ -7,7 +7,13 @@ header{
 
 nav{
     display: flex;
-   justify-content: ;
+   justify-content: flex-end;
+   align-items: flex-end;
+}
+
+.BEEROS{
+    display: flex;
+    align-self: flex-start;
 }
 
 section{
