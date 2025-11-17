@@ -2,19 +2,22 @@ header{
     background-color: rgb(255, 191, 0);
     font-family:'Gill Sans', 'Gill Sans MT', Jacques, 'Trebuchet MS', sans-serif;
     color: black;
-    font-size: 40px;
+    font-size: 110%;
     display: flex;
-   justify-content: flex-end;
-   align-items: flex-end;
-}
-
-.BEEROS{
-    display: flex;
-    align-self: flex-start;
+   justify-content: space-between;
 }
 
 section{
-    border: 2px;
+    border: 1%;
     border-style: solid;
     border-color: black;
+}
+
+ul.titre {
+  list-style-type: none;
+  display: flex;
+  gap: 10%;
+  margin-top: 12%;
+  margin-right: 10%;
+  justify-content: flex-end;
 }
