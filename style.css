@@ -9,6 +9,13 @@ header{
     border-bottom-style: solid;
 }
 
+/*
+container{
+    display: flex;
+    align-content: space-evenly;
+}
+*/
+
 section{
     border: 0.3vw;
     border-style: solid;
