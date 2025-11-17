@@ -9,12 +9,13 @@ header{
 }
 
 section{
-    border: 1%;
+    border: 0.3vw;
     border-style: solid;
-    border-color: black;
+    border-color: rgb(70, 70, 70);
     max-width: 600px;
     max-height: 270px;
     margin: 30px;
+    padding: 0px 2% 2% 2%;
 }
 
 section.blonde{
@@ -34,8 +35,12 @@ section.black{
     color: #ffffff;
 }
 
-section h2{
-    padding-left: 20px;
+section logo-titre{
+    text-decoration: underline;
+    font-style: italic;
+    display: grid;
+    place-items: center;
+    justify-content: left;
 }
 
 
