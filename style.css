@@ -1,18 +1,28 @@
-<<<<<<< HEAD
 header{
     background-color: rgb(255, 191, 0);
     font-family:'Gill Sans', 'Gill Sans MT', Jacques, 'Trebuchet MS', sans-serif;
     color: black;
     font-size: 40px;
 }
+
 nav{
     display: flex;
    justify-content: ;
 }
-=======
+
 section{
     border: 2px;
     border-style: solid;
     border-color: black;
+    max-width: 800px;
+    max-height: 271px;
+    margin: 30px;
 }
->>>>>>> 3ea67e9f85c90e935b8079dd9879e898663f89af
+
+section.blonde{
+    background-color: #f9de5b;
+}
+
+section.brune{
+    background-color: #ff6337;
+}
