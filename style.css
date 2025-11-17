@@ -2,22 +2,46 @@ header{
     background-color: rgb(255, 191, 0);
     font-family:'Gill Sans', 'Gill Sans MT', Jacques, 'Trebuchet MS', sans-serif;
     color: black;
-    font-size: 110%;
+    font-size: 40px;
+}
+
+nav{
     display: flex;
-   justify-content: space-between;
+   justify-content: flex-end;
+   align-items: flex-end;
+}
+
+.BEEROS{
+    display: flex;
+    align-self: flex-start;
 }
 
 section{
     border: 1%;
     border-style: solid;
     border-color: black;
+    max-width: 600px;
+    max-height: 270px;
+    margin: 30px;
 }
 
-ul.titre {
-  list-style-type: none;
-  display: flex;
-  gap: 10%;
-  margin-top: 12%;
-  margin-right: 10%;
-  justify-content: flex-end;
+section.blonde{
+    background-color: #f9de5b;
+}
+
+section.brune{
+    background-color: #ff6337;
+}
+
+section.ambree{
+    background-color: #ffa02d;
+}
+
+section.black{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+section h2{
+    padding-left: 20px;
 }
