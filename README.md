@@ -9,8 +9,8 @@
 </head>
 <body>
     <a href="Accueil.html">Accueil</a>
-    <a href="apropos.html">Accueil</a>
-    <a href="produits.html">Accueil</a>
-    <a href="Start">Accueil</a>
+    <a href="apropos.html">apropos</a>
+    <a href="produits.html">produits</a>
+    <a href="Start">start</a>
 </body>
 
