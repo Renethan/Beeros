@@ -62,7 +62,7 @@ h1.beer{
     padding-left: 4%;
 }
 
-body{
+body.Accueil{
     background-image: url(biere-legere-fraiche-du-barman.jpg);
     background-size: cover;
     background-position: 50% 0%;
