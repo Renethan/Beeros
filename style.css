@@ -71,7 +71,7 @@ h1.beer{
 }
 
 body.Accueil{
-    background-image: url(biere-legere-fraiche-du-barman.jpg);
+    background-image: url(images/fond-ecran_accueil.jpg);
     background-size: cover;
     background-position: 50% 0%;
     margin : 0px;
