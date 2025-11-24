@@ -119,12 +119,7 @@ body.Accueil{
     margin : 0px;
 }
 
-body.produits{
-    background-color: #e6e9de;
-    margin : 0px;
-}
-
-body.apropos{
+body{
     background-color: #e6e9de;
     margin : 0px;
 }
