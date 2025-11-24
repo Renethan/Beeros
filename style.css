@@ -17,7 +17,29 @@ main.produits{
 }
 
 
-section{
+section.opa{
+    width : 33%;
+ 
+    list-style-type: none;
+}
+
+footer{
+    background-color: white;
+    opacity: 70%;
+    display: flex;
+    flex-wrap: wrap ;
+    border-bottom-style: solid;
+    border-top-style: solid;
+}
+
+section.prevention{
+    width :100%;
+    background-color:rgb(255, 191, 0) ;}
+
+section.blonde{
+    background-color: #f9de5b;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     border: 0.3vw;
     border-style: solid;
@@ -28,18 +50,18 @@ section{
     padding: 1vw 2vw 2vw 2vw;
 }
 
-section.blonde{
-    background-color: #f9de5b;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 section.brune{
     background-color: #ff6337;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 0.3vw;
+    border-style: solid;
+    border-color: rgb(70, 70, 70);
+    min-width: 20vw;
+    max-height: 20vw;
+    margin: 3vw;
+    padding: 1vw 2vw 2vw 2vw;
 }
 
 section.ambree{
@@ -47,6 +69,13 @@ section.ambree{
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 0.3vw;
+    border-style: solid;
+    border-color: rgb(70, 70, 70);
+    min-width: 20vw;
+    max-height: 20vw;
+    margin: 3vw;
+    padding: 1vw 2vw 2vw 2vw;
 }
 
 section.black{
@@ -55,14 +84,13 @@ section.black{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-section logo-titre{
-    text-decoration: underline;
-    font-style: italic;
-    display: grid;
-    place-items: center;
-    justify-content: left;
+    border: 0.3vw;
+    border-style: solid;
+    border-color: rgb(70, 70, 70);
+    min-width: 20vw;
+    max-height: 20vw;
+    margin: 3vw;
+    padding: 1vw 2vw 2vw 2vw;
 }
 
 .apropos-text{
