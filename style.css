@@ -9,7 +9,9 @@ header{
     border-bottom-style: solid;
 }
 
-
+main.separation{
+    flex-grow: 1;
+}
 main.produits{
     display : flex;
     flex-wrap: wrap;
@@ -30,6 +32,8 @@ footer{
     flex-wrap: wrap ;
     border-bottom-style: solid;
     border-top-style: solid;
+    flex-shrink: 0;
+    font-size: 1.5vw;
 }
 
 section.prevention{
@@ -122,4 +126,7 @@ body.Accueil{
 body{
     background-color: #e6e9de;
     margin : 0px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
