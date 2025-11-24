@@ -3,7 +3,7 @@ header{
     background-color: rgb(255, 191, 0);
     font-family:'Gill Sans', 'Gill Sans MT', Jacques, 'Trebuchet MS', sans-serif;
     color: black;
-    font-size: 110%;
+    font-size: 2vw;
     justify-content: space-between;
     align-items: center;
     border-bottom-style: solid;
@@ -20,10 +20,10 @@ section{
     border: 0.3vw;
     border-style: solid;
     border-color: rgb(70, 70, 70);
-    max-width: 600px;
-    max-height: 270px;
-    margin: 30px;
-    padding: 0px 2% 2% 2%;
+    max-width: 60vw;
+    max-height: 27vw;
+    margin: 3vw;
+    padding: 1vw 2vw 2vw 2vw;
 }
 
 section.blonde{
