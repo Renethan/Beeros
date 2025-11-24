@@ -9,9 +9,14 @@ header{
     border-bottom-style: solid;
 }
 
+h1{
+    align-self: center;
+}
+
 main.separation{
     flex-grow: 1;
 }
+
 main.produits{
     display : flex;
     flex-wrap: wrap;
@@ -102,4 +107,25 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    border: solid;
+    border-color: rgb(70, 70, 70);
+    border-width: 0.3vw;
+    padding:1vw;
+    margin:2vw;
+    gap: 0.5vw;
+    border-radius:2vw;
+}
+
+fieldset{
+    border-width: 0;
+    padding:0;
+}
+
+.bouton_envoyer{
+    max-width: 15vw;
 }
