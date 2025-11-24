@@ -126,7 +126,20 @@ body.Accueil{
 body{
     background-color: #e6e9de;
     margin : 0px;
-    min-height: 100vh;
+}
+
+form{
     display: flex;
     flex-direction: column;
+    border: 0.3vw;
+    border-style: solid;
+    border-color: rgb(70, 70, 70);
+    margin: 3vw;
+    padding: 1vw 2vw 2vw 2vw;
+    background-color:#d9d9d988;
+}
+
+fieldset{
+    border-width: 0;
+    padding: 0;
 }
