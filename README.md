@@ -1,2 +1,2 @@
 # Beeros 
-[Accéder au site](https://renethan.github.io/index)
+[Accéder au site](https://renethan.github.io/Beeros)
