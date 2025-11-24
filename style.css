@@ -96,7 +96,7 @@ ul.titre {
 }
 
 h1.beer{
-    font-size: 4vw;
+    font-size: 2vw;
     padding-left: 3vw;
 }
 
@@ -142,8 +142,8 @@ img{
 }
 
 h1.biere{
-    font-size: 3vh;
-    margin: 0.5vh 0vh 0.5vh 0vh;
+    font-size: 2.5vh;
+    margin: 1vh 0vh 5vh 1vh;
 }
 
 h2.bieren{
