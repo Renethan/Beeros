@@ -57,13 +57,6 @@ section.black{
     align-items: center;
 }
 
-section logo-titre{
-    text-decoration: underline;
-    font-style: italic;
-    display: grid;
-    place-items: center;
-    justify-content: left;
-}
 
 .apropos-text{
     background-color:#d9d9d988;
@@ -91,12 +84,7 @@ body.Accueil{
     margin : 0px;
 }
 
-body.produits{
-    background-color: #e6e9de;
-    margin : 0px;
-}
-
-body.apropos{
+body{
     background-color: #e6e9de;
     margin : 0px;
 }
