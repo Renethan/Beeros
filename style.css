@@ -9,38 +9,52 @@ header{
     border-bottom-style: solid;
 }
 
-/*
-container{
-    display: flex;
-    align-content: space-evenly;
+
+main.produits{
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-*/
+
 
 section{
+    align-items: center;
     border: 0.3vw;
     border-style: solid;
     border-color: rgb(70, 70, 70);
-    max-width: 60vw;
-    max-height: 27vw;
-    margin: 3vw;
-    padding: 1vw 2vw 2vw 2vw;
+    min-width: 550px;
+    max-height: 270px;
+    margin: 30px;
+    padding: 0px 2% 2% 2%;
 }
 
 section.blonde{
     background-color: #f9de5b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 section.brune{
     background-color: #ff6337;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 section.ambree{
     background-color: #ffa02d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 section.black{
     background-color: #000000;
     color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 section logo-titre{
