@@ -113,7 +113,7 @@ h1.beer{
 }
 
 body.Accueil{
-    background-image: url(images/fond-ecran_accueil.jpg);
+    background-image: url(images/fond-ecran_accueil.webp);
     background-size: cover;
     background-position: 50% 0%;
     margin : 0px;
