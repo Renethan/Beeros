@@ -28,7 +28,6 @@ main.produits{
 
 section.opa{
     width : 33%;
- 
     list-style-type: none;
 }
 
@@ -44,8 +43,10 @@ footer{
 }
 
 section.prevention{
+    display: flex;
     width :100%;
     background-color:rgb(255, 191, 0) ;
+    justify-content: center;
 }
 
 main.produits section{
