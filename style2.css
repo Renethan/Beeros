@@ -1,6 +1,6 @@
 header{
     display: flex;
-    background-color: #ffffff;
+    background-color: #faf7e7;
     font-family:'Gill Sans', 'Gill Sans MT', Jacques, 'Trebuchet MS', sans-serif;
     color: rgb(120, 87, 34);
     font-size: 1.3vw;
@@ -12,7 +12,7 @@ header{
 }
 
 h1{
-    align-self: center;
+    align-self: right;
 }
 
 main.separation{
@@ -32,7 +32,7 @@ section.opa{
 }
 
 footer{
-    background-color: rgba(205, 205, 205, 0.995);
+    background-color: #cdcdce;
     opacity: 70%;
     display: flex;
     flex-wrap: wrap ;
@@ -137,7 +137,9 @@ img{
     height: 12vw
 }
 
-h1.biere{
-    font-size: 2.5vh;
-    margin: 1vh 0vh 5vh 1vh;
+h1.titre{
+    display: flex;
+    justify-content: center;
+    font-size: 5vw;
+    margin: 5vh 10vw 2vh 10vw;
 }
