@@ -82,6 +82,8 @@ section.black{
 
 .apropos-text{
     background-color:#d9d9d988;
+    margin: 2vw;
+    padding-left: 1vw;
 }
 
 ul.titre {
@@ -121,7 +123,7 @@ form{
     border-color: rgb(70, 70, 70);
     border-width: 0.3vw;
     padding:1vw;
-    margin-left: 2vw;
+    margin: 2vw;
     gap: 0.5vw;
     border-radius:2vw;
 }
