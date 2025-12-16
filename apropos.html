@@ -10,7 +10,7 @@
     <meta property="og:title" content="BEEROS - A Propos">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://renethan.github.io/Beeros/apropos.html">
-    <meta property="og:image" content="https://renethan.github.io/Beeros/images/Crocbeer_dark.png">
+    <meta property="og:image" content="https://renethan.github.io/Beeros/assets/Crocbeer_dark.png">
 
     <link rel="icon" type="image/x-icon" href="images/favicon-32x32.png">
     <link rel="stylesheet" href="css/style.css" id="css">
@@ -20,15 +20,17 @@
 <body class="apropos">
     <!-- HEADER -->
     <header>
-        <h1 class="beer">BEEROS</h1>
-        <nav>
-            <ul class="titre">
-                <li><a href="produits.html">Nos&nbsp;Produits</a></li>
-                <li><a href="apropos.html">À&nbsp;Propos</a></li>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="contact.html">Contact</a></li>
+       <h1 class="beer">BEEROS</h1>
+       <nav>
+           <ul class="titre">
+               <li><a href="produits.html">Nos&nbsp;Produits</a></li>
+               <li><a href="apropos.html">À&nbsp;Propos</a></li>
+               <li><a href="index.html">Accueil</a></li>
+               <li><a href="contact.html">Contact</a></li>
+                <li> <button id="boutonCss" class="changementCSS" onclick="changerCSS();">Changer le CSS ?</button>
+                <script src="scripts/cssChanger.js"> </script></li>
             </ul>
-        </nav>
+       </nav>
     </header>
 
     <!-- PARTIE PRINCIPALE -->
@@ -54,11 +56,11 @@
 
     <!-- FOOTER -->
     <footer>
-        <section class="opa">
+        <section class="opa supp">
             <h2>Beeros</h2> <br>
              <p>A beer with strong taste and high tenency in alcohol</p>
         </section>
-        <section class="opa">
+        <section class="opa supp">
             <h2>Links</h2>
             <p></p>
         </section>
@@ -66,8 +68,6 @@
             <h2>More</h2>
             <p></p>
         </section>
-        <button id="boutonCss" onclick="changerCSS();">Changer le CSS ?</button>
-        <script src="scripts/cssChanger.js"> </script>
         <section class="prevention">
             <h2 class="couleur">L'alcool est à consommer avec modération, ne pas partager ce site avec des mineurs.</h2>
         </section>

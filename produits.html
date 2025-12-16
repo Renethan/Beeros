@@ -3,7 +3,7 @@
 
 <!-- EN-TETE -->
 <head>
-    <link rel="icon" type="image/x-icon" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/x-icon" href="assets/favicon-32x32.png">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Présentation des produits Beeros">
@@ -11,7 +11,7 @@
     <meta property="og:title" content="BEEROS - Produits">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://renethan.github.io/Beeros/produits.html">
-    <meta property="og:image" content="https://renethan.github.io/Beeros/images/Crocbeer_dark.png">
+    <meta property="og:image" content="https://renethan.github.io/Beeros/assets/Crocbeer_dark.png">
 
     <link rel="stylesheet" href="css/style.css" id="css">
     <title>Nos Produits</title>
@@ -21,13 +21,15 @@
     <!-- HEADER -->
     <header>
        <h1 class="beer">BEEROS</h1>
-       <nav class="produits">
+       <nav>
            <ul class="titre">
                <li><a href="produits.html">Nos&nbsp;Produits</a></li>
                <li><a href="apropos.html">À&nbsp;Propos</a></li>
                <li><a href="index.html">Accueil</a></li>
                <li><a href="contact.html">Contact</a></li>
-           </ul>
+                <li> <button id="boutonCss" class="changementCSS" onclick="changerCSS();">Changer le CSS ?</button>
+                <script src="scripts/cssChanger.js"> </script></li>
+            </ul>
        </nav>
     </header>
 
@@ -40,35 +42,35 @@
         <section class="produits">
             <section class="blonde">
                 <h2>La Blonde</h2>
-                <img src="images/Crocbeer_white.png" alt="Logo Crocbeer White">
+                <img src="assets/Crocbeer_white.png" alt="Logo Crocbeer White">
             </section>
 
             <section class="brune">
                 <h2>La Brune</h2>
-                <img src="images/Crocbeer_dark.png" alt="Logo Crocbeer Dark">
+                <img src="assets/Crocbeer_dark.png" alt="Logo Crocbeer Dark">
             </section>
         </section>
 
         <section class="produits">
             <section class="ambree">
                 <h2>L'Ambrée</h2>
-                <img src="images/Crocbeer_amber.png" alt="Logo Crocbeer Amber">
+                <img src="assets/Crocbeer_amber.png" alt="Logo Crocbeer Amber">
             </section>
 
             <section class="black">
                 <h2>La Black</h2>
-                <img src="images/Crocbeer_black.png" alt="Logo Crocbeer Black">
+                <img src="assets/Crocbeer_black.png" alt="Logo Crocbeer Black">
             </section>
         </section>
     </main>
 
     <!-- FOOTER -->
     <footer>
-        <section class="opa">
+        <section class="opa supp">
             <h2>Beeros</h2> <br>
              <p>A beer with strong taste and high tenency in alcohol</p>
         </section>
-        <section class="opa">
+        <section class="opa supp">
             <h2>Links</h2>
             <p></p>
         </section>
@@ -76,8 +78,6 @@
             <h2>More</h2>
             <p></p>
         </section>
-        <button id="boutonCss" onclick="changerCSS();">Changer le CSS ?</button>
-        <script src="scripts/cssChanger.js"> </script>
         <section class="prevention">
             <h2 class="couleur">L'alcool est à consommer avec modération, ne pas partager ce site avec des mineurs.</h2>
         </section>
