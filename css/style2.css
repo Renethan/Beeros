@@ -19,7 +19,7 @@ main.separation{
     flex-grow: 1;
 }
 
-main.produits{
+section.produits{
     display : flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -50,7 +50,7 @@ section.prevention{
     color: rgb(120, 87, 34);
 }
 
-main.produits section{
+section.produits section{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
