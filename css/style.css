@@ -176,6 +176,7 @@ article.collabo{
 }
 
 h2.titre_accueil{
+    width: fit-content;
     color: black;
     margin-top: 0%;
     padding: 1rem;
@@ -187,14 +188,14 @@ h2.titre_accueil{
     border-top: 0;
     margin-left: 10%;
     margin-right: 10%;
-    width : 80%;
     font-size: 200%;
     text-align:center;}
 
 section.vidéo{ 
-    width: fit-content;
     flex-direction: column;
     display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
     justify-content: space-between;
     align-items: center;
 }
