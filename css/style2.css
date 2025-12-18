@@ -29,12 +29,11 @@ section.produits{
 section.opa{
     width : 33%;
     list-style-type: none;
-    padding-left: 2vw;
+    padding-left: 0.5vw;
 }
 
 footer{
-    background-color: #cdcdce;
-    opacity: 70%;
+    background-color: #ffffff;
     display: flex;
     flex-wrap: wrap ;
     justify-content: space-between;
@@ -42,9 +41,9 @@ footer{
     border-top-style: solid;
     flex-shrink: 0;
     border: black solid 0.5vw;
-    font-size: 1.5vw;
-    max-height: 10vh;
+    font-size: clamp(2rem, 2vw, 4rem);
 }
+
 
 section.prevention{
     display: flex;
