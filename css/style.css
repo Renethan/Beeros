@@ -3,13 +3,14 @@ header{
     background-color: rgb(255, 191, 0);
     font-family:'Gill Sans', 'Gill Sans MT', Jacques, 'Trebuchet MS', sans-serif;
     color: black;
-    font-size: 1.3vw;
+    font-size: 1.8vw;
     justify-content: space-between;
     align-items: center;
     border-bottom-style: solid;
     border: 0.3vw solid;
     top:0;
     position:sticky;
+    max-height: 10vh;
 }
 
 h1{
@@ -102,7 +103,7 @@ ul.titre {
 }
 
 h1.beer{
-    font-size: 2vw;
+    font-size: 3vw;
     padding-left: 3vw;
 }
 
