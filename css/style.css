@@ -30,7 +30,7 @@ section.produits{
 section.opa{
     text-align: left;
     width: 33.3%;
-     padding-left: 2vw;
+    padding-left: 2vw;
 }
 
 footer{
@@ -43,7 +43,6 @@ footer{
     border-top-style: solid;
     flex-shrink: 0;
     border: black solid 0.5vw;
-    max-height: 13vh;
     font-size: 1.3vw;
 }
 
