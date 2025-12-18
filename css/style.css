@@ -313,3 +313,6 @@ ul.Aix-Marseille img{
     font-size: larger;
     flex-direction: column;
 }
+.produits h2{
+    width:100%;
+}
