@@ -43,7 +43,7 @@ footer{
     flex-shrink: 0;
     border: black solid 0.5vw;
     font-size: 1.5vw;
-    min-height: 10vh;
+    max-height: 10vh;
 }
 
 section.prevention{
