@@ -44,8 +44,8 @@ footer{
     border-top-style: solid;
     flex-shrink: 0;
     border: black solid 0.5vw;
-    font-size: 200%;
-    max-height:100%;
+    font-size: clamp(2rem, 5vw+ 1rem, 7rem);
+
 }
 
 section.supp  {
