@@ -43,7 +43,7 @@ footer{
     border-top-style: solid;
     flex-shrink: 0;
     border: black solid 0.5vw;
-    font-size: clamp(2rem, 2vw, 4rem);
+    font-size: clamp(0, 1vw, 2rem);
 }
 
 section.supp  {
