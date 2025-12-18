@@ -1,18 +1,16 @@
-header{
+
+header {
     display: flex;
-    background-color: #faf7e7;
-    font-family:'Gill Sans', 'Gill Sans MT', Jacques, 'Trebuchet MS', sans-serif;
-    color: rgb(120, 87, 34);
-    font-size: 1.3vw;
     justify-content: space-between;
     align-items: center;
-    border-bottom-style: solid;
-    border: 0.3vw solid;
-    
+    background-color: #faf7e7;
+    border: 0.3vw solid rgb(120, 87, 34);
+    padding: 1vw 2vw;
+    font-size: 1rem;
 }
 
 h1{
-    align-self: right;
+    margin: 0;
 }
 
 main.separation{
@@ -85,10 +83,10 @@ section.black{
 }
 
 .apropos-text{
-    background-color:#d9d9d988;
     margin: 2vw;
-    padding-left: 1vw;
-    border: solid 0.4vw rgb(120, 87, 34);
+    padding: 1vw;
+    background-color: rgba(217, 217, 217, 0.5);
+    border: 0.4vw solid rgb(120, 87, 34);
     border-radius: 1vw;
 }
 
@@ -107,12 +105,13 @@ h1.beer{
     padding-left: 3vw;
 }
 
-body{
-    background-color: #eee3ae;
-    margin : 0px;
+body {
+    margin: 0;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: #eee3ae;
+    color: rgb(120, 87, 34);
 }
 
 form{
@@ -152,15 +151,12 @@ h2.titre{
 
 button.changementCSS{
     width: 100%;
-    padding: 0.5rem 1rem;
-    border: none;
-    font-size: 100%;
+    padding: 0.7rem;
+    font-size: 1rem;
     color: rgb(255, 191, 0);
     background-color: black;
-    border-bottom-left-radius: 10%;
-    border-bottom-right-radius: 25%;
-    border-top-right-radius: 10%;
-    border-top-left-radius: 25%;
+    border: none;
+    border-radius: 1rem;
     cursor: pointer;
 }
 
