@@ -60,7 +60,7 @@ section.produits section{
     border: 0.3vw;
     border-style: solid;
     border-color: rgb(70, 70, 70);
-    min-width: 20vw;
+    min-width: 40vw;
     max-height: 20vw;
     margin: 3vw;
     padding: 1vw 2vw 2vw 2vw;
