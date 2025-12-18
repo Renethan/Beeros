@@ -29,7 +29,6 @@ section.produits{
 section.opa{
     width : 33%;
     list-style-type: none;
-    padding-left: 0.5vw;
 }
 
 footer{
@@ -51,6 +50,8 @@ section.prevention{
     background-color:#ffffff ;
     justify-content: center;
     color: rgb(120, 87, 34);
+    border-top: 0.3vw solid black;
+    border-bottom: 0.3vw solid black;
 }
 
 nav.bouton_remonte{
@@ -273,7 +274,7 @@ img.flèche{
 
 }
 
-ul.Aix-Marseille{
+section.Aix-Marseille{
     align-items: center;
     list-style: none;
     display: flex;
