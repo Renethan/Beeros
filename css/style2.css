@@ -225,7 +225,7 @@ section.supp  {
     text-align: center;
     font-size: 3rem;
     margin: 4rem auto 2rem;
-    color: #f5c542;
+    color: #000000;
     text-transform: uppercase;
     letter-spacing: 0.15rem;
 }
@@ -233,7 +233,7 @@ section.supp  {
 .apropos h3 {
     font-size: 1.7rem;
     margin-top: 2.5rem;
-    color: #f2f2f2;
+    color: #000000;
     position: relative;
 }
 
