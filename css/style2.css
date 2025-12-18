@@ -301,3 +301,10 @@ footer h2{
     width:100%;
 }
 
+.accueil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    flex-direction: column;
+}
