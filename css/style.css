@@ -42,7 +42,8 @@ footer{
     border-top-style: solid;
     flex-shrink: 0;
     border: black solid 0.5vw;
-    font-size: 0.8vw;
+    max-height: 13vh;
+    font-size: 1.3vw;
 }
 
 section.prevention{
@@ -50,7 +51,7 @@ section.prevention{
     width :100%;
     background-color:rgb(255, 191, 0) ;
     justify-content: center;
-    border-top: 2vw solid;
+    border-top: 0.5vw solid;
 }
 
 section.produits section{
