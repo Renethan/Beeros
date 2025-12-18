@@ -37,32 +37,29 @@
     <main class="separation">
         <h2 class="titre"> Nous Contacter </h2>
         <form action="https://formspree.io/f/mwpgreep" method="post">
-            <label for="prenom">Prénom : </label>
+            <label for="prenom">Prénom : </label> <!--Demande de prénom-->
             <input id="prenom" type="text" name="prenom" value="" placeholder="Entrez votre prénom">
-            <label for="nom">Nom : </label>
+            <label for="nom">Nom : </label><!--Demande de nom-->
             <input id="nom" type="text" name="nom" value="" placeholder="Entrez votre nom">
-            <label for="email">Email : </label>
+            <label for="email">Email : </label><!--Demande de mail-->
             <input id="email" type="email" name="email" value="" placeholder="Entrez votre email">
             <fieldset>
-                <legend> Sexe : </legend>
+                <legend> Sexe : </legend><!--Demande de genre-->
                 <input id="homme" type="radio" name="sexe" value="Homme">
                 <label for="homme"> Homme </label>
                 <input id="femme" type="radio" name="sexe" value="Femme">
                 <label for="femme"> Femme </label>            
             </fieldset>
-            <label for="message"> Message : </label>
+            <label for="message"> Message : </label><!--Encadré pour que l'utilisateur souhaite envoyer-->
             <textarea id="message" name="message" rows="5" cols="50" placeholder="Entrez votre message" ></textarea>
             <input id="bouton" type="submit" class="bouton_envoyer" value="Envoyer">
         </form>
 
         <nav class="Bouton_remonte">
-        <ul class ="affichage">
-        <li>
         <a href="#top"> <!--Lien avec flèche pour revenir en haut de page-->
           <img class= "flèche" src="assets/flèche.webp" alt="flèche">
           <h2 class="direction"> Haut de la page</h2>
         </a>
-        </ul>
         </nav>
     </main>
 
