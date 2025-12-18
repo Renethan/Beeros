@@ -42,7 +42,8 @@ footer{
     border-top-style: solid;
     flex-shrink: 0;
     border: black solid 0.5vw;
-    font-size: 1.3vw;
+    font-size: 1.5vw;
+    min-height: 10vh;
 }
 
 section.prevention{
@@ -240,7 +241,6 @@ ul.zone_video{
 }
 
 section.supp  {
-    border-color: black;
     border-right: black 0.3vw solid;
 }
 
