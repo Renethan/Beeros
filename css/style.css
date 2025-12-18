@@ -278,7 +278,7 @@ ul.affichage{
 }
 
 img.flèche{
-    max-width: 50%;
+    max-width: 50px;
     height: auto;
     display: block;
     margin: auto auto;
