@@ -184,16 +184,17 @@ h2.titre_accueil{
     border-top: 0;
     margin-left: 10%;
     margin-right: 10%;
-    width : 80%;
+    width : fit-content;
     font-size: 200%;
     text-align:center;}
 
 section.vidéo{ 
-    width: fit-content;
     flex-direction: column;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left:10% ;
+    padding-right:10% ;
 }
 
 p.texte_video{
