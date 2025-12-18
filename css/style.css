@@ -30,6 +30,7 @@ section.produits{
 section.opa{
     text-align: left;
     width: 33.3%;
+     padding-left: 2vw;
 }
 
 footer{
@@ -86,6 +87,7 @@ section.black{
     background-color:#d9d9d988;
     margin: 2vw;
     padding-left: 1vw;
+    border: 1vw #222222 solid;
 }
 
 ul.titre {
@@ -273,13 +275,22 @@ ul.affichage{
 }
 
 img.flèche{
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
     display: block;
     margin: auto auto;
 
 }
+
 ul.Aix-Marseille{
     align-items: center;
     list-style: none;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+ul.Aix-Marseille img{
+    height: 10vh;
+    padding-left: 3vw;    
 }
