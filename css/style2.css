@@ -2,12 +2,13 @@ header {
     display: flex;
     background-color: #faf7e7;
     border: 0.3vw solid rgb(120, 87, 34);
-    font-size: 1.3vw;
+    font-size: 1.8vw;
     justify-content: space-between;
     align-items: center;
     border-bottom-style: solid;
     top:0;
     position:sticky;
+    max-height: 10vh;
 }
 
 h1{
@@ -102,7 +103,7 @@ ul.titre {
 }
 
 h1.beer{
-    font-size: 2vw;
+    font-size: 3vw;
     padding-left: 3vw;
 }
 
