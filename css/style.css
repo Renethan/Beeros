@@ -60,14 +60,16 @@ section.produits section{
     border: 0.3vw;
     border-style: solid;
     border-color: rgb(70, 70, 70);
-    min-width: 10vw;
+    min-width: 20vw;
     max-height: 20vw;
     margin: 3vw;
     padding: 1vw 2vw 2vw 2vw;
     font-size: 2vw;
 }
 
-
+section.blonde{
+    background-color: #f9de5b;
+}
 
 section.brune{
     background-color: #ff6337;
