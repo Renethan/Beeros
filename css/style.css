@@ -266,12 +266,12 @@ ul.affichage{
     display: flex;
     list-style: none;
     align-items: center;
-    margin: 0;
-    padding: 0;
+    max-height: fit-content;
+    max-width: 100vw;
 }
 
 img.flèche{
-    max-width: 50%;
+    max-width: 30%;
     height: auto;
     display: block;
     margin: auto auto;
