@@ -37,10 +37,12 @@ footer{
     opacity: 70%;
     display: flex;
     flex-wrap: wrap ;
+    justify-content: space-between;
     border-bottom-style: solid;
     border-top-style: solid;
     flex-shrink: 0;
-    font-size: 1vw;
+    border: black solid 0.5vw;
+    font-size: 1.3vw;
 }
 
 section.prevention{
@@ -264,12 +266,13 @@ ul.Aix-Marseille{
     list-style: none;
     display: flex;
     flex-direction: row;
-    
+    padding-left: 3vw;
+    padding-right: 3vw;
 }
 
 
 ul.Aix-Marseille img{
-    height: 10vh;
+    height: 8vh;
     padding-right: 3vw;    
 }
 footer p {
