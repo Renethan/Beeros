@@ -29,6 +29,8 @@ section.produits{
 section.opa{
     width : 33%;
     list-style-type: none;
+    text-align: left;
+    padding-left: 0.5vw;
 }
 
 footer{
@@ -47,7 +49,7 @@ footer{
 section.prevention{
     display: flex;
     width :100%;
-    background-color:#ffffff ;
+    background-color:#888888 ;
     justify-content: center;
     color: rgb(120, 87, 34);
     border-top: 0.3vw solid black;
