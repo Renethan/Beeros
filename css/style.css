@@ -285,3 +285,24 @@ ul.Aix-Marseille{
     align-items: center;
     list-style: none;
 }
+
+.apropos h2.titre {
+    text-align: center;
+    font-size: 3rem;
+    margin: 4rem auto 2rem;
+    color: #000;
+}
+
+.apropos h3 {
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.6rem;
+    color: #000;
+    border-left: 0.5rem solid rgb(255, 191, 0);
+    padding-left: 1rem;
+}
+
+.apropos-text {
+    padding: 2rem;
+    background: #fff;
+}
