@@ -31,6 +31,7 @@ section.produits{
 section.opa{
     text-align: left;
     width: 33.3%;
+    padding-left: 2vw;
 }
 
 footer{
@@ -43,7 +44,6 @@ footer{
     border-top-style: solid;
     flex-shrink: 0;
     border: black solid 0.5vw;
-    max-height: 13vh;
     font-size: 1.3vw;
 }
 
@@ -90,6 +90,7 @@ section.black{
     background-color:#d9d9d988;
     margin: 2vw;
     padding-left: 1vw;
+    border: 1vw #222222 solid;
 }
 
 ul.titre {
@@ -277,34 +278,22 @@ ul.affichage{
 }
 
 img.flèche{
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
     display: block;
     margin: auto auto;
 
 }
+
 ul.Aix-Marseille{
     align-items: center;
     list-style: none;
+    display: flex;
+    flex-direction: row;
+    
 }
 
-.apropos h2.titre {
-    text-align: center;
-    font-size: 3rem;
-    margin: 4rem auto 2rem;
-    color: #000;
-}
-
-.apropos h3 {
-    margin-top: 2rem;
-    margin-bottom: 0.5rem;
-    font-size: 1.6rem;
-    color: #000;
-    border-left: 0.5rem solid rgb(255, 191, 0);
-    padding-left: 1rem;
-}
-
-.apropos-text {
-    padding: 2rem;
-    background: #fff;
+ul.Aix-Marseille img{
+    height: 10vh;
+    padding-left: 3vw;    
 }
