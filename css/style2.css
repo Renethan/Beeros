@@ -54,7 +54,7 @@ section.prevention{
 }
 
 nav.bouton_remonte{
-    padding-top: 1vw;
+    padding: 1vw;
 
 }
 
@@ -257,14 +257,14 @@ h2.direction{
 
 
 ul.affichage{
-    flex-direction: column;
+    flex-direction: row;
     display: flex;
     list-style: none;
-    align-items: center;
+    justify-content: center;
     max-height: fit-content;
     max-width: 100vw;
+    padding-left: 0;
 }
-
 
 img.flèche{
     max-width: 30%;
