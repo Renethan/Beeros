@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="fr">
-
+    
 <!-- EN-TETE -->
 <head>
     <link rel="icon" type="image/x-icon" href="assets/favicon-32x32.png">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Présentation des produits Beeros">
+    <meta name="description" content="Site web de Beeros, producteur de bierre">
 
-    <meta property="og:title" content="BEEROS - Produits">
+    <meta property="og:title" content="BEEROS - Accueil">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://renethan.github.io/Beeros/produits.html">
+    <meta property="og:url" content="https://renethan.github.io/Beeros/index.html">
     <meta property="og:image" content="https://renethan.github.io/Beeros/assets/Crocbeer_dark.png">
 
     <link rel="stylesheet" href="css/style.css" id="css">
-    <title>Nos Produits</title>
+    <title>Accueil</title>
 </head>
 
-<body class="produits">
+<body class="Accueil">
     <!-- HEADER -->
     <header>
        <h1 class="beer">BEEROS</h1>
@@ -36,51 +36,81 @@
     <!-- PARTIE PRINCIPALE -->
 
     <main class="separation">
-        <h2 class="titre"> Nos Produits </h2>
+    <section class="vidéo">
+        <h2 class="titre_accueil">-- Attention au volant ! --</h2>
+        <nav class="vidTexte"></nav>
+        <ul class="zone_video">
+            <p class="texte_video">Voici une vidéo vous montrant les effets néfastes de l'alcool.</p>
+            <li class = "vrai_vidéo">
+            <video controls>
+                <source src="assets/video_prevention.mp4" type="video/mp4">
+                <track kind="subtitles" src="assets/sous-titres.vtt" srclang="fr" label="Français" default>
+            </video>
+            </li>
+        </ul>
+        </nav>
+    </section>
+    <nav class="Bouton_remonte">
+        <ul class ="affichage">
+        <li>
+        <a href="#top">
+          <img class= "flèche" src="assets/flèche.png" alt="flèche">
+          <h2 class="direction"> Haut de la page</h2>
+          </a>
+    </ul>
+    </nav>
 
-        <!-- LISTE DES PRODUITS -->
-        <section class="produits">
-            <section class="blonde">
-                <h2>La Blonde</h2>
-                <img src="assets/Crocbeer_white.png" alt="Logo Crocbeer White">
-            </section>
+    
 
-            <section class="brune">
-                <h2>La Brune</h2>
-                <img src="assets/Crocbeer_dark.png" alt="Logo Crocbeer Dark">
-            </section>
-        </section>
-
-        <section class="produits">
-            <section class="ambree">
-                <h2>L'Ambrée</h2>
-                <img src="assets/Crocbeer_amber.png" alt="Logo Crocbeer Amber">
-            </section>
-
-            <section class="black">
-                <h2>La Black</h2>
-                <img src="assets/Crocbeer_black.png" alt="Logo Crocbeer Black">
-            </section>
-        </section>
     </main>
 
     <!-- FOOTER -->
     <footer>
-        <section class="opa supp">
-            <h2>Beeros</h2> <br>
-             <p>A beer with strong taste and high tenency in alcohol</p>
+        <section class = "opa supp">
+            <h2>Beeros</h2> 
+             <p>Bières à caractère forte, brassées depuis 2010 avec une grande teneur en alcool</p>
         </section>
-        <section class="opa supp">
-            <h2>Links</h2>
-            <p></p>
+        <section class = "opa supp">            
+            <h2>Liens</h2>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=dHYHDqmyIk8">
+                            Groland
+                        </a>
+                    </li>
+                </ul>
+            </nav>
         </section>
-        <section class="opa">
-            <h2>More</h2>
-            <p></p>
+        <section class = "opa">
+            <h2>Créateurs</h2>
+            <ul>
+            <li>
+            Lefebvre Jimmy
+            </li>
+            <li>
+            Rene Ethan
+            </li>
+            <li>
+            Rossines Leny
+            </li>
+            <li>
+            Vidal Mathis
+            </li>
+            </ul> 
         </section>
         <section class="prevention">
             <h2 class="couleur">L'alcool est à consommer avec modération, ne pas partager ce site avec des mineurs.</h2>
         </section>
+        </section>
+        <section>
+        <ul class="Aix-Marseille">
+        <a>
+        <li><img src="assets/logo_aix_marseille_universite.png" alt="Aix-Marseille-Université-logo" ></li>
+        </a>
+        <li>
+            <p>En remerciant les personnes qui ont effectués ce projet, et ceux qui vont les évlauer</p>
+        </li>
+        </ul>
+        </section>
     </footer>
-</body>
-</html>
