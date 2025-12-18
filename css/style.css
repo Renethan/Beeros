@@ -52,7 +52,7 @@ section.prevention{
     width :100%;
     background-color:rgb(255, 191, 0) ;
     justify-content: center;
-    border-top: 0.3vw solid;
+    border: 0.3vw solid;
 }
 
 section.produits section{
@@ -290,7 +290,8 @@ ul.Aix-Marseille{
     list-style: none;
     display: flex;
     flex-direction: row;
-    
+    padding-left: 3vw;
+    padding-right: 3vw;
 }
 
 ul.Aix-Marseille img{
