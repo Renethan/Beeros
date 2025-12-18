@@ -8,7 +8,8 @@ header{
     align-items: center;
     border-bottom-style: solid;
     border: 0.3vw solid;
-    
+    top:0;
+    position:sticky;
 }
 
 h1{
@@ -28,19 +29,19 @@ section.produits{
 
 section.opa{
     text-align: left;
-    padding-left: 2%;
-    padding-right:2%;
     width: 33.3%;
 }
 
 footer{
     background-color: white;
-    opacity: 70%;
+    opacity: 100%;
     display: flex;
     flex-wrap: wrap ;
+    justify-content: space-between;
     border-bottom-style: solid;
     border-top-style: solid;
     flex-shrink: 0;
+    border: black solid 0.5vw;
     font-size: 0.8vw;
 }
 
@@ -49,6 +50,7 @@ section.prevention{
     width :100%;
     background-color:rgb(255, 191, 0) ;
     justify-content: center;
+    border-top: 2vw solid;
 }
 
 section.produits section{
@@ -95,7 +97,7 @@ ul.titre {
   margin-top: 2vw;
   margin-right: 2vw;
   margin-bottom: 2vw;
-  justify-content: flex-end;
+  align-items: center;
 }
 
 h1.beer{
@@ -139,6 +141,10 @@ img{
     height: 12vw
 }
 
+h2.couleur{
+    text-align: center;
+}
+
 h2.titre{
     display: flex;
     justify-content: center;
@@ -147,7 +153,7 @@ h2.titre{
 }
 
 button.changementCSS{
-    width: 100%;
+    width: fit-content;
     padding: 0.5rem 1rem;
     border: none;
     font-size: 100%;
@@ -160,63 +166,122 @@ button.changementCSS{
     cursor: pointer;
 }
 
+article.collabo{
+    background-color: black;
+    color: white;
+
+}
+
 h2.titre_accueil{
     color: black;
     margin-top: 0%;
+    padding: 1rem;
+    padding-top: 0rem;
     background-color: rgb(255, 191, 0);
     border-bottom-left-radius:100%;
     border-bottom-right-radius:100%;
     border: 2px solid black;
-    border-top: 0px;
+    border-top: 0;
+    margin-left: 10%;
+    margin-right: 10%;
     width : 80%;
     font-size: 200%;
     text-align:center;}
 
-section.vidéo{
-    display: block;
-    justify-content: center;
-    width:100%;
-    padding-left: 20%;
-    padding-right:5%;
+section.vidéo{ 
+    width: fit-content;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 p.texte_video{
-    font-size: 130%;
+    font-size: 2.5rem;
+    text-align: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 li.vrai_vidéo{
-    padding: 3vw;
-    margin:0;
+    align-items: center;
+    min-width: 50%;
+    min-height: 50%;
 }
 
 video{
     display:block;
     height: auto;
+    padding: 0 0;
+    margin: 0;
     width: 100%;
 }
 
 ul.zone_video{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    text-align: center;
+    justify-content: center;
+    width: fit-content;
+    background-color: red;
     border: 1rem;
-    border-style:inset;
+    margin: 0;
+    margin-bottom: 5rem;
+    padding: 0;
+    border-style:outset;
     border-color: black ;
-    border-bottom-left-radius: 25%;
-    border-bottom-right-radius: 5% ;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
     border-top-right-radius: 5% ;
-    border-top-left-radius: 25% ;
-    width : 80%;
+    border-top-left-radius: 5% ;
+    gap: 2rem;
     list-style: none;
-    background-color: rgb(255, 191, 0);
-}
+    background-color: rgb(255, 191, 0);}
 
 * {
     box-sizing: border-box;
 }
 
 section.supp  {
+    border-right: black 0.2em solid;
+}
+
+h2.direction{
+    font-size: 2rem;
+    cursor: pointer;
+    color: #000;
+    border:0.1rem;
+    border-style: solid;
     border-color: black;
-    border-right: 0.2em solid;
+    text-align: center;
+    background-color: rgb(255, 191, 0);
+}
+
+section.menu{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 0;  
+    margin-right: 2%;
+}
+
+ul.affichage{
+    flex-direction: column;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+img.flèche{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto auto;
+
+}
+ul.Aix-Marseille{
+    align-items: center;
+    list-style: none;
 }
