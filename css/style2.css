@@ -226,7 +226,7 @@ section.supp  {
 }
 
 h2.direction{
-    font-size: 2rem;
+    font-size: 2vw;
     cursor: pointer;
     color: #000;
     border:0.1rem;
@@ -284,3 +284,4 @@ footer li {
 footer h2{
     color: #000000;
 }
+

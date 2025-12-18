@@ -305,3 +305,11 @@ ul.Aix-Marseille img{
     height: 8vh;
     padding-left: 3vw;    
 }
+
+.accueil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    flex-direction: column;
+}
